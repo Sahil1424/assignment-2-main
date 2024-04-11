@@ -1,0 +1,41 @@
+
+.combo-box {
+    -fx-font-size: 16px;
+    -fx-padding: 8px;
+    -fx-pref-width: 220px;
+}
+
+
+.combo-box:focused {
+    -fx-border-color: #3498db;
+    -fx-border-width: 2px;
+}
+
+
+#nameLabel {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+
+#descriptionTextArea {
+    -fx-font-size: 16px;
+    -fx-background-color: #f7f7f7;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 8px;
+}
+
+
+#imageView {
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+
+.root {
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #f7f7f7, #d0d0d0);
+}
